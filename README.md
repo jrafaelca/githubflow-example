@@ -1,7 +1,7 @@
-
 # Programa de Saludo Personalizado
 
-Este es un programa sencillo en Python que saluda al usuario de manera personalizada. Al ejecutarlo, el programa pedirá al usuario que ingrese su nombre y luego mostrará un saludo con ese nombre.
+Este es un programa sencillo en Python que saluda al usuario de manera personalizada. Al ejecutarlo, el programa pedirá
+al usuario que ingrese su nombre y luego mostrará un saludo con ese nombre.
 
 ## Requisitos
 
@@ -24,10 +24,24 @@ Este es un programa sencillo en Python que saluda al usuario de manera personali
    python main.py
    ```
 
-4. El programa te pedirá que ingreses tu nombre. Después de ingresar el nombre, el programa te saludará con un mensaje como:
+4. El programa te pedirá que ingreses tu nombre. Después de ingresar el nombre, el programa te saludará con un mensaje
+   como:
    ```
    Hello, [tu nombre]
    ```
+
+## Test
+
+Este proyecto incluye pruebas unitarias para verificar el funcionamiento correcto del programa. Las pruebas aseguran que
+el código maneje correctamente las entradas del usuario y funcione según lo esperado.
+
+### Cómo ejecutar las pruebas
+
+Para ejecutar todas las pruebas del proyecto, usa el siguiente comando en tu terminal:
+
+```bash
+python -m unittest discover tests/
+```
 
 ## Funcionalidad
 
@@ -41,4 +55,5 @@ Este es un programa sencillo en Python que saluda al usuario de manera personali
 
 ---
 
-Este proyecto sigue el flujo de desarrollo de GitHub Flow y se adhiere a las convenciones de commits de `Conventional Commits`.
+Este proyecto sigue el flujo de desarrollo de GitHub Flow y se adhiere a las convenciones de commits de
+`Conventional Commits`.
